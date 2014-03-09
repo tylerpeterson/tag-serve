@@ -1,0 +1,36 @@
+{
+  "name": "tag-serve",
+  "version": "0.1.0",
+  "author": "Tyler Peterson <petersontb@familysearch.org>",
+  "description": "Serve files by mavericks tag.",
+  "contributors": [
+    {
+      "name": "Tyler Peterson",
+      "email": "petersontb@familysearch.org"
+    }
+  ],
+  "bin": {
+    "http-server": "./bin/http-server"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tylerpeterson/tag-serve"
+  },
+  "keywords": [
+    "mavericks",
+    "tag"
+  ],
+  "dependencies": {
+    "minimist": "0.0.8"
+  },
+  "brew-dependencies": {
+    "tag": "0.7.5"
+  },
+  "devDependencies": {
+  },
+  "license": "CC-BY-SA-4.0",
+  "engines": {
+    "node": ">=0.10.26"
+  }
+}

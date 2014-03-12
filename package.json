@@ -23,12 +23,15 @@
   ],
   "dependencies": {
     "minimist": "0.0.8",
-    "ecstatic": "~0.4.13"
+    "ecstatic": "~0.4.13",
+    "q": "~1.0.1"
   },
   "brew-dependencies": {
     "tag": "0.7.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "supertest": "~0.9.0"
+  },
   "license": "CC-BY-SA-4.0",
   "engines": {
     "node": ">=0.10.26"
